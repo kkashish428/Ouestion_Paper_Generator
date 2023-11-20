@@ -31,6 +31,7 @@ Enter total marks for the question paper: 100
 Enter percentage of Easy questions: 20
 Enter percentage of Medium questions: 30
 Enter percentage of Hard questions: 50
+$?
 
 ```bash
 Generated Question Paper:
