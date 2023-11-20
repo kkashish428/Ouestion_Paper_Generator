@@ -32,3 +32,71 @@ Enter percentage of Easy questions: 20
 Enter percentage of Medium questions: 30
 Enter percentage of Hard questions: 50
 
+```bash
+Generated Question Paper:
+[
+  {
+    question: 'What is the speed of light?',
+    subject: 'Physics',
+    topic: 'Waves',
+    difficulty: 'Easy',
+    marks: 5
+  },
+  {
+    question: 'Do atoms ever actually touch each other?',
+    subject: 'Physics',
+    topic: 'Electromagnetism',
+    difficulty: 'Easy',
+    marks: 5
+  },
+  {
+    question: 'what is the radius of the second Bohr orbit for the hydrogen atom?',
+    subject: 'Chemistry',
+    topic: 'Atomic Structure',
+    difficulty: 'Easy',
+    marks: 5
+  },
+  {
+    question: 'What is the conjugate base of OH(negative)?',
+    subject: 'Chemistry',
+    topic: 'Equilibrium',
+    difficulty: 'Easy',
+    marks: 5
+  },
+  {
+    question: 'Can sound waves generate heat?',
+    subject: 'Physics',
+    topic: 'Heat',
+    difficulty: 'Medium',
+    marks: 10
+  },
+  {
+    question: 'Do flames contain plasma?',
+    subject: 'Physics',
+    topic: 'Ionization',
+    difficulty: 'Medium',
+    marks: 10
+  },
+  {
+    question: 'The compound of Xenon with zero dipole moment is?',
+    subject: 'Chemistry',
+    topic: 'Chemical Bonding',
+    difficulty: 'Medium',
+    marks: 10
+  },
+  {
+    question: 'Why are sound waves invisible?',
+    subject: 'Physics',
+    topic: 'Sound',
+    difficulty: 'Hard',
+    marks: 25
+  },
+  {
+    question: 'Why does a rainbow exist only in a narrow band?',
+    subject: 'Physics',
+    topic: 'Refraction',
+    difficulty: 'Hard',
+    marks: 25
+  }
+]
+
