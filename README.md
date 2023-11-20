@@ -26,14 +26,11 @@ Total Marks: 100
 Difficulty Distribution: Easy (20%), Medium (30%), Hard (50%)
 Here's a sample interaction:
 
-```bash
 Enter total marks for the question paper: 100
 Enter percentage of Easy questions: 20
 Enter percentage of Medium questions: 30
 Enter percentage of Hard questions: 50
-$?
 
-```bash
 Generated Question Paper:
 [
   {
@@ -101,3 +98,44 @@ Generated Question Paper:
   }
 ]
 
+- **Example 2**
+Total Marks: 50
+Difficulty Distribution: Easy (20%), Medium (30%), Hard (50%)
+Here's a sample interaction:
+
+Enter total marks for the question paper: 50
+Enter percentage of Easy questions: 20
+Enter percentage of Medium questions: 30
+Enter percentage of Hard questions: 50
+
+Generated Question Paper:
+[
+  {
+    question: 'What is the speed of light?',
+    subject: 'Physics',
+    topic: 'Waves',
+    difficulty: 'Easy',
+    marks: 5
+  },
+  {
+    question: 'Do atoms ever actually touch each other?',
+    subject: 'Physics',
+    topic: 'Electromagnetism',
+    difficulty: 'Easy',
+    marks: 5
+  },
+  {
+    question: 'Can sound waves generate heat?',
+    subject: 'Physics',
+    topic: 'Heat',
+    difficulty: 'Medium',
+    marks: 10
+  },
+  {
+    question: 'Why are sound waves invisible?',
+    subject: 'Physics',
+    topic: 'Sound',
+    difficulty: 'Hard',
+    marks: 25
+  }
+]
