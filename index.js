@@ -3,6 +3,7 @@ const readline = require('readline');
 const questionStore = require('./questionStore');
 const { calculateDistribution } = require('./utils');
 
+// Function to generate Question Paper by taking totalMarks and DifficultyDistribution
 function generateQuestionPaper(totalMarks, difficultyDistribution) {
   const questionPaper = [];
 
@@ -18,11 +19,13 @@ function generateQuestionPaper(totalMarks, difficultyDistribution) {
   return questionPaper;
 }
 
+// Function to create Interface for Input and Output
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
   });
 
+// Function to Get User's Input
 function getUserInput(question) {
     return new Promise(resolve => {
       rl.question(question, answer => {
@@ -31,6 +34,7 @@ function getUserInput(question) {
     });
   }
 
+// Function to get Input of totalMarks, easyPercentage, mediumPercentage, hardPercentage and store them in difficultyMarks
   async function generateQuestionPaper() {
     const totalMarks = parseInt(await getUserInput('Enter total marks for the question paper: '), 10);
     const easyPercentage = parseInt(await getUserInput('Enter percentage of Easy questions: '), 10);
