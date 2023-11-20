@@ -22,14 +22,14 @@ This is a simple Question Paper Generator application built in Node.js. The appl
 Let's say you want to generate a question paper with the following requirements:
 
 - **Example 1**
-Total Marks: 100
-Difficulty Distribution: Easy (20%), Medium (30%), Hard (50%)
-Here's a sample interaction:
+Total Marks: 100<br>
+Difficulty Distribution: Easy (20%), Medium (30%), Hard (50%)<br>
+Here's a sample interaction:<br>
 
-Enter total marks for the question paper: 100
-Enter percentage of Easy questions: 20
-Enter percentage of Medium questions: 30
-Enter percentage of Hard questions: 50
+Enter total marks for the question paper: 100<br>
+Enter percentage of Easy questions: 20<br>
+Enter percentage of Medium questions: 30<br>
+Enter percentage of Hard questions: 50<br>
 
 Generated Question Paper:
 [
