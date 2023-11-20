@@ -31,7 +31,6 @@ Enter percentage of Easy questions: 20<br>
 Enter percentage of Medium questions: 30<br>
 Enter percentage of Hard questions: 50<br>
 
-```json
 Generated Question Paper:<br>
 [<br>
   {
